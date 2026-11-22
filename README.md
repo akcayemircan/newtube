@@ -1,11 +1,11 @@
 # NewTube
 
-> **Project status:** NewTube no longer works. For a maintained alternative, see [LocalTube by diekaiju](https://github.com/diekaiju/localtube).
+> **Project status:** NewTube no longer works. I’m continuing development in [OrsayTube](https://github.com/akcayemircan/OrsayTube).
 
 <details>
 <summary>Türkçe</summary>
 
-NewTube artık çalışmıyor. Geliştirilmeye devam eden alternatif için [LocalTube’a](https://github.com/diekaiju/localtube) bakabilirsin.
+NewTube artık çalışmıyor. Geliştirmeye [OrsayTube’da](https://github.com/akcayemircan/OrsayTube) devam ediyorum.
 
 </details>
 
