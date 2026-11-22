@@ -1,17 +1,17 @@
 # NewTube
 
-> **Project status:** NewTube no longer works. I’m continuing development in [OrsayTube](https://github.com/akcayemircan/OrsayTube).
+NewTube no longer works. I continued the project as [OrsayTube](https://github.com/akcayemircan/OrsayTube).
 
 <details>
 <summary>Türkçe</summary>
 
-NewTube artık çalışmıyor. Geliştirmeye [OrsayTube’da](https://github.com/akcayemircan/OrsayTube) devam ediyorum.
+NewTube artık çalışmıyor. Projeye [OrsayTube](https://github.com/akcayemircan/OrsayTube) olarak devam ettim.
 
 </details>
 
 A YouTube client for legacy Samsung Smart TVs (2011–2015 Orsay OS, E/F/H series).
 
-A modern rewrite of the abandoned [OldTube](https://github.com/arielscarpinelli/oldtube)
+Based on [OldTube](https://github.com/arielscarpinelli/oldtube)
 project.  The original tried to extract YouTube stream URLs in the TV's
 browser, which broke the moment YouTube changed its `n`/`sig` challenge.
 NewTube pushes all that work to a small Python server that uses `yt-dlp`
@@ -26,7 +26,7 @@ to H.264 MP4 the TV can play natively.
    └──────────────────────┘                   └────────────────────────────┘
 ```
 
-## What's in the box
+## Project files
 
 ```
 newtube/
@@ -39,9 +39,9 @@ newtube/
 └── README.md      # you are here
 ```
 
-## Quick start — three ways
+## Original setup
 
-### 🚀 Option A — Free cloud (recommended, zero cost)
+### Option A: Render
 
 Deploy the server to **Render.com free tier** — no PC, no electricity, 24/7.
 PC and phone stay off.
@@ -52,18 +52,18 @@ PC and phone stay off.
 4. Wait ~3 min for the build, then copy the URL Render gives you
    (looks like `https://newtube-xxxx.onrender.com`).
 5. On your TV: install the widget, open NewTube, go to **Settings** →
-   **Set NewTube server URL**, paste the URL.  Done.
+   **Set NewTube server URL**, paste the URL.
 
 Free-tier caveat: the service sleeps after 15 min of inactivity and takes
 ~30 s to wake on the next request.  Fine for occasional viewing.  For
 always-on, upgrade to the $7/mo plan.
 
-### 🖥 Option B — Run on your PC (Windows 8 / 10 / 11)
+### Option B: Windows 8, 10 or 11
 
 1. Install **Python 3.9+** from <https://python.org/downloads> — tick
    *"Add Python to PATH"* during install.
 2. Open the `desktop/` folder and double-click **`Run.bat`**.
-3. A friendly window opens.  Click **▶ Sunucuyu Başlat**.  Wait for
+3. Click **Sunucuyu Başlat**.  Wait for
    "Kurulum tamamlandı.  Sunucu çalışıyor."  The window shows your
    local IP and the install URL.
 4. Follow the on-screen TV-install steps.
@@ -72,7 +72,7 @@ To turn the whole thing into a **single .exe**, run `desktop\build_exe.bat`
 once on a Windows PC with Python installed.  The result is a ~30 MB
 `dist\NewTube.exe` that works on any Windows machine without Python.
 
-### 📱 Option C — Just use the phone
+### Option C: Phone browser
 
 Open `mobile/index.html` in your phone's browser, then **Add to Home
 Screen**.  You now have a YouTube client on your phone.  No server
