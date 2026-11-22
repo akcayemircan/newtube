@@ -1,5 +1,14 @@
 # NewTube
 
+> **Project status:** NewTube no longer works. For a maintained alternative, see [LocalTube by diekaiju](https://github.com/diekaiju/localtube).
+
+<details>
+<summary>Türkçe</summary>
+
+NewTube artık çalışmıyor. Geliştirilmeye devam eden alternatif için [LocalTube’a](https://github.com/diekaiju/localtube) bakabilirsin.
+
+</details>
+
 A YouTube client for legacy Samsung Smart TVs (2011–2015 Orsay OS, E/F/H series).
 
 A modern rewrite of the abandoned [OldTube](https://github.com/arielscarpinelli/oldtube)
